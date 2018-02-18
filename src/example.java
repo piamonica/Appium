@@ -20,5 +20,6 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.id("twotabsearchtextbox")).clear();
 	Thread.sleep(1000);
 	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("hola");
+	system.out.println("Output");
    }	
  }
